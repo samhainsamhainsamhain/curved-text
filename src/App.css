@@ -1,0 +1,182 @@
+.App {
+  padding: 20px;
+}
+
+.letterContainer {
+  background-color: black;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.letterBox {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: red;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+}
+
+.letterValue {
+  top: calc(50%);
+  left: calc(50%);
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.controlContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.controlForm {
+  background-color: rgb(203, 231, 255);
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.controlLabel {
+  text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes rainbow-bg {
+  100%,
+  0% {
+    border-color: rgb(255, 0, 0);
+  }
+  8% {
+    border-color: rgb(255, 127, 0);
+  }
+  16% {
+    border-color: rgb(255, 255, 0);
+  }
+  25% {
+    border-color: rgb(127, 255, 0);
+  }
+  33% {
+    border-color: rgb(0, 255, 0);
+  }
+  41% {
+    border-color: rgb(0, 255, 127);
+  }
+  50% {
+    border-color: rgb(0, 255, 255);
+  }
+  58% {
+    border-color: rgb(0, 127, 255);
+  }
+  66% {
+    border-color: rgb(0, 0, 255);
+  }
+  75% {
+    border-color: rgb(127, 0, 255);
+  }
+  83% {
+    border-color: rgb(255, 0, 255);
+  }
+  91% {
+    border-color: rgb(255, 0, 127);
+  }
+}
+
+@keyframes rainbow {
+  100%,
+  0% {
+    color: rgb(255, 0, 0);
+  }
+  8% {
+    color: rgb(255, 127, 0);
+  }
+  16% {
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    color: rgb(127, 255, 0);
+  }
+  33% {
+    color: rgb(0, 255, 0);
+  }
+  41% {
+    color: rgb(0, 255, 127);
+  }
+  50% {
+    color: rgb(0, 255, 255);
+  }
+  58% {
+    color: rgb(0, 127, 255);
+  }
+  66% {
+    color: rgb(0, 0, 255);
+  }
+  75% {
+    color: rgb(127, 0, 255);
+  }
+  83% {
+    color: rgb(255, 0, 255);
+  }
+  91% {
+    color: rgb(255, 0, 127);
+  }
+}
+
+@keyframes colorfulSlidein {
+  0% {
+    rotate: 0deg;
+    border-color: rgb(255, 0, 0);
+  }
+  8% {
+    border-color: rgb(255, 127, 0);
+  }
+  16% {
+    border-color: rgb(255, 255, 0);
+  }
+  25% {
+    border-color: rgb(127, 255, 0);
+  }
+  33% {
+    border-color: rgb(0, 255, 0);
+  }
+  41% {
+    border-color: rgb(0, 255, 127);
+  }
+  50% {
+    border-color: rgb(0, 255, 255);
+  }
+  58% {
+    border-color: rgb(0, 127, 255);
+  }
+  66% {
+    border-color: rgb(0, 0, 255);
+  }
+  75% {
+    border-color: rgb(127, 0, 255);
+  }
+  83% {
+    border-color: rgb(255, 0, 255);
+  }
+  91% {
+    border-color: rgb(255, 0, 127);
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
